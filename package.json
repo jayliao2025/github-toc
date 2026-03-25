@@ -1,6 +1,6 @@
 {
-  "name": "csdn-reading-assistant",
-  "version": "1.0.0",
+  "name": "github-toc",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "type": "module",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@gitee.com:Jardaliao/csdn-reading-assistant.git"
+    "url": "https://github.com/jayliao2025/github-toc.git"
   },
   "author": "",
   "license": "ISC",
