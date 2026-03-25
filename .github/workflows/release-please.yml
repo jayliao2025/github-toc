@@ -27,6 +27,10 @@ jobs:
       - uses: actions/checkout@v4
         if: ${{ steps.release.outputs.release_created }}
 
+      - name: Install jq
+        if: ${{ steps.release.outputs.release_created }}
+        run: sudo apt-get install -y jq
+
       - name: Sync manifest.json version
         if: ${{ steps.release.outputs.release_created }}
         run: |
