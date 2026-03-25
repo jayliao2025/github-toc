@@ -6,7 +6,7 @@ import autoprefixer from 'gulp-autoprefixer'
 import htmlmin from 'gulp-htmlmin'
 import watch from 'gulp-watch'
 
-const dist = 'app';
+const dist = 'app'; // Distribution directory for built extension
 
 gulp.task('js', function () {
     return gulp.src('src/**/*.js')
